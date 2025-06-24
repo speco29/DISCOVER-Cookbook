@@ -1,28 +1,27 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: Project name not set \n"
+"Project-Id-Version: Project name not set\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-12 16:54+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es\n"
+"PO-Revision-Date: 2025-06-24 15:08+0200\n"
+"Last-Translator: \n"
 "Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../DISCOVER/intro.md:2
 msgid "DISCOVER Cookbook"
-msgstr ""
+msgstr "Libro de recetas DISCOVER"
 
 #: ../DISCOVER/intro.md:4
 msgid ""
-"![disc-horizontal-rgb-tl](https://user-"
-"images.githubusercontent.com/7980466/34578828-09c97342-f14c-"
-"11e7-85b5-35b49567bef4.png)"
+"![disc-horizontal-rgb-tl](https://user-images.githubusercontent."
+"com/7980466/34578828-09c97342-f14c-11e7-85b5-35b49567bef4.png)"
 msgstr ""
 
 #: ../DISCOVER/intro.md:4
@@ -37,10 +36,19 @@ msgid ""
 "Program](https://www.numfocus.org/programs/diversity-and-inclusion/), "
 "with support from the [Moore Foundation](https://www.moore.org/)."
 msgstr ""
+"El libro de recetas DISCOVER de NumFOCUS (DISCOVER por sus siglas en "
+"inglés: _Diverse & Inclusive Spaces and Conferences: Overall Vision and "
+"Essential Resources_, Espacios y Conferencias Diversos e Inclusivos: "
+"Visión General y Recursos Esenciales) es producido por el [programa de "
+"NumFOCUS sobre Diversidad e Inclusión en Computación Científica (DISC "
+"por sus siglas en inglés: _Diversity &amp; Inclusion in Scientific "
+"Computing_)](https://www.numfocus.org/programs/diversity-and-"
+"inclusion/), with support from the [Moore Foundation](https://www.moore."
+"org/)."
 
 #: ../DISCOVER/intro.md:8
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #: ../DISCOVER/intro.md:10
 msgid ""
@@ -49,17 +57,22 @@ msgid ""
 "those events. This cookbook is **not** intended to provide **general "
 "instructions** on how to run a successful conference or event."
 msgstr ""
+"Este libro de recetas quiere ser un recurso para **organizadores de "
+"conferencias y eventos** para **apoyar y fomentar diversidad e "
+"inclusión** en dichos eventos. Este libro de recetas **no** trata de dar "
+"**instrucciones generales** sobre como organizar una conferencia o "
+"evento con éxito."
 
 #: ../DISCOVER/intro.md:12
 msgid "Read more about this cookbook [here](/01_about.md)."
-msgstr ""
+msgstr "Lee más sobre este libro de recetas [aquí](/01_about.md)."
 
 #: ../DISCOVER/intro.md:14
 msgid ""
 "For a full statement of the NumFOCUS DISC Program mission and the "
 "NumFOCUS position on diversity and inclusion, please see [NumFOCUS "
-"Diversity and Inclusion Program](https://www.numfocus.org/programs"
-"/diversity-and-inclusion/)."
+"Diversity and Inclusion Program](https://www.numfocus.org/programs/"
+"diversity-and-inclusion/)."
 msgstr ""
 
 #: ../DISCOVER/intro.md:18
@@ -137,8 +150,8 @@ msgstr ""
 #: ../DISCOVER/intro.md:34
 msgid ""
 "The \"high impact, low effort\" and \"high impact, high effort\" "
-"suggestions are summarized on the [Summary "
-"page](/02_minimal_measures.md)."
+"suggestions are summarized on the [Summary page](/02_minimal_measures."
+"md)."
 msgstr ""
 
 #: ../DISCOVER/intro.md:36
@@ -146,4 +159,3 @@ msgid ""
 "Please see the [NumFOCUS Privacy Policy](https://numfocus.org/privacy-"
 "policy) for more information about how we collect data."
 msgstr ""
-

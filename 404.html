@@ -546,7 +546,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>🚫 404 - Page Not Found</h1>
+    <h1>🚫 <span id="title">404 - Page Not Found</span></h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -556,7 +556,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-can-you-do">What can you do?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-can-you-do"><span id="what-do">What can you do?</span></a></li>
 </ul>
             </nav>
         </div>
@@ -569,18 +569,52 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="page-not-found">
-<h1>🚫 404 - Page Not Found<a class="headerlink" href="#page-not-found" title="Link to this heading">#</a></h1>
-<p>Oops! It looks like the page you’re looking for has wandered off.</p>
-<p>Maybe it was deleted, renamed, or never existed in the first place.</p>
+<h1>🚫 <span id="title">404 - Page Not Found</span><a class="headerlink" href="#page-not-found" title="Link to this heading">#</a></h1>
+<p id="message">Oops! It looks like the page you're looking for has wandered off.</p>
+<p id="suggestion">Maybe it was deleted, renamed, or never existed in the first place.</p>
 <hr class="docutils" />
 <section id="what-can-you-do">
-<h2>What can you do?<a class="headerlink" href="#what-can-you-do" title="Link to this heading">#</a></h2>
+<h2><span id="what-do">What can you do?</span><a class="headerlink" href="#what-can-you-do" title="Link to this heading">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="intro.html"><span class="std std-doc">Return to the homepage</span></a></p></li>
-<li><p>Found a broken link? <a class="reference external" href="https://github.com/numfocus/DISCOVER-Cookbook/issues">Raise an issue</a></p></li>
+<li><p><a href="./intro.html" id="home">Return to the homepage</a></p></li>
+<li><p><a href="https://github.com/numfocus/DISCOVER-Cookbook/issues" id="report">Raise an issue</a></p></li>
 </ul>
 <hr class="docutils" />
-<p>If you think this is an error, let us know by creating an issue. Thanks for helping us keep everything on track!</p>
+<p id="footer">If you think this is an error, let us know by creating an issue.</p>
+<script>
+const translations = {
+  en: {
+    title: "404 - Page Not Found",
+    message: "Oops! It looks like the page you're looking for has wandered off.",
+    suggestion: "Maybe it was deleted, renamed, or never existed in the first place.",
+    whatDo: "What can you do?",
+    home: "Return to the homepage",
+    report: "Raise an issue",
+    footer: "If you think this is an error, let us know by creating an issue."
+  },
+  es: {
+    title: "Página No Encontrada",
+    message: "¡Ups! Parece que la página que buscas se ha extraviado.",
+    suggestion: "Tal vez fue eliminada, renombrada o nunca existió.",
+    whatDo: "¿Qué puedes hacer?",
+    home: "Volver a la página principal",
+    report: "Abre un issue",
+    footer: "Si crees que esto es un error, infórmanos creando un issue."
+  }
+  // Add more translations as needed
+};
+
+const lang = (navigator.language || "en").split("-")[0];
+const t = translations[lang] || translations["en"];
+
+document.getElementById("title").textContent = t.title;
+document.getElementById("message").textContent = t.message;
+document.getElementById("suggestion").textContent = t.suggestion;
+document.getElementById("what-do").textContent = t.whatDo;
+document.getElementById("home").textContent = t.home;
+document.getElementById("report").textContent = t.report;
+document.getElementById("footer").textContent = t.footer;
+</script>
 </section>
 </section>
 
@@ -630,7 +664,7 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-can-you-do">What can you do?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-can-you-do"><span id="what-do">What can you do?</span></a></li>
 </ul>
   </nav></div>
 

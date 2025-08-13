@@ -10,14 +10,16 @@
       margin: 0;
       padding: 0;
     }
+
     body {
-      height: 100vh;
+      min-height: 100vh;
       background: linear-gradient(135deg, black, #e4f0ff);
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: 'Segoe UI', sans-serif;
-      overflow: hidden;
+      overflow: auto;
+      padding: 1rem;
       position: relative;
     }
 
@@ -43,9 +45,10 @@
       background: rgba(255, 255, 255, 0.25);
       backdrop-filter: blur(12px);
       -webkit-backdrop-filter: blur(12px);
-      padding: 2.5rem 3rem;
+      padding: 2rem;
       border-radius: 20px;
       border: 1px solid rgba(255, 255, 255, 0.3);
+      width: 100%;
       max-width: 500px;
       text-align: center;
       z-index: 1;
@@ -53,13 +56,13 @@
     }
 
     h1 {
-      font-size: 2.5em;
+      font-size: clamp(2em, 5vw, 2.5em);
       color: rgb(52, 51, 51);
       margin-bottom: 0.5rem;
     }
 
     p {
-      font-size: 1.1em;
+      font-size: clamp(1em, 2.5vw, 1.1em);
       color: rgb(52, 51, 51);
       margin-bottom: 1.4rem;
     }
@@ -87,6 +90,24 @@
       border: 1px solid #ccc;
       font-size: 1em;
       background: #fff;
+    }
+
+    @media (max-width: 600px) {
+      .glass-card {
+        padding: 1.5rem;
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        margin: 0.5rem 0;
+        text-align: center;
+        font-size: 0.95em;
+      }
+
+      select {
+        font-size: 0.95em;
+      }
     }
   </style>
 </head>
